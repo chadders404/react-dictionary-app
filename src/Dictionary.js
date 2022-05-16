@@ -27,6 +27,12 @@ export default function Dictionary() {
         <input type="search" onChange={handleKeywordChange} />
       </form>
       <Results results={results} />
+      <p>
+        Open source code on{" "}
+        <a href="https://github.com/chadders404/react-dictionary-app">
+          Github 👾
+        </a>
+      </p>
     </div>
   );
 }
