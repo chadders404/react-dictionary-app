@@ -4,7 +4,6 @@ import Phonetics from "./Phonetics.js";
 
 export default function Results(props) {
   console.log(props.results);
-  console.log(props.results);
   if (props.results) {
     return (
       <div className="Results">
@@ -12,7 +11,7 @@ export default function Results(props) {
         {props.results.phonetics.map(function (phonetic, index) {
           return (
             <div key={index}>
-              <Phonetics props={phonetic} />
+              <Phonetics phonetic={phonetic} />
             </div>
           );
         })}
