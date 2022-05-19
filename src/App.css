@@ -1,7 +1,21 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: auto;
 }
 
 .App-header {
   margin-top: 5em;
+}
+.column1 {
+  grid-column-start: 1;
+  min-width: 10%;
+}
+.column2 {
+  grid-column-start: 2;
+}
+.column3 {
+  grid-column-start: 3;
+  min-width: 10%;
 }

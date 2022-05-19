@@ -1,0 +1,15 @@
+.meaning h3 {
+  font-size: 1.25 em;
+  line-height: 1.25em;
+}
+
+.meaning .definition {
+  margin-top: 1em;
+}
+
+.meaning .example {
+  font-style: italic;
+  color: #70757a;
+  line-height: 1.5em;
+  font-size: 0.9em;
+}
