@@ -72,7 +72,7 @@ export default function Dictionary(props) {
         </div>
         <div></div>
         <p>
-          Open source code on{" "}
+          Coded by Charlie Ruth Chadwick. Open-source code on{" "}
           <a href="https://github.com/chadders404/react-dictionary-app">
             Github
           </a>
