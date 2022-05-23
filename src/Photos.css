@@ -1,0 +1,14 @@
+.photoSubgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  text-align: center;
+  max-height: 7em;
+}
+
+.img-fluid {
+  display: inline-grid;
+  max-width: 97%;
+  grid-column: 1;
+  border-radius: 5px;
+}
