@@ -15,7 +15,11 @@ export default function Photos(props) {
                 rel="noreferrer"
                 key={index}
               >
-                <img src={photo.src.landscape} className="img-fluid" />
+                <img
+                  src={photo.src.landscape}
+                  className="img-fluid"
+                  alt="images provided by Pexels"
+                />
               </a>
             );
           })}
