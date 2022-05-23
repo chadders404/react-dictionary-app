@@ -8,6 +8,9 @@
 .App-header {
   margin-top: 5em;
 }
+.dictionaryLogo {
+  max-width: 500px;
+}
 .column1 {
   grid-column-start: 1;
   min-width: 10%;

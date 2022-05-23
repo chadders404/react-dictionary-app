@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results.js";
 import Photos from "./Photos.js";
+import { ThreeDots } from "react-loading-icons";
 import "./Dictionary.css";
 
 export default function Dictionary(props) {
@@ -81,5 +82,10 @@ export default function Dictionary(props) {
     );
   } else {
     load();
+    return (
+      <div>
+        <ThreeDots fill="#000" />
+      </div>
+    );
   }
 }

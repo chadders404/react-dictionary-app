@@ -7,7 +7,11 @@ export default function App() {
       <div className="column1"></div>
       <div className="column2">
         <header className="App-header">
-          <h1>Dictionary</h1>
+          <img
+            className="dictionaryLogo"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/035/070/original/Dictionary_Logo-01.png?1653339338"
+            alt="Dictionary"
+          />
         </header>
 
         <main>
